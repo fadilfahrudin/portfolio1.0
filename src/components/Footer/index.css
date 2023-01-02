@@ -1,0 +1,41 @@
+.wrapper-footer {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 20px;
+  /* background-color: aqua; */
+}
+
+.email {
+  color: #f2a365;
+  margin-top: -20px;
+}
+
+.email:hover {
+  color: rgb(8, 11, 26);
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 3vmin;
+  /* pointer-events: none; */
+}
+
+.socialMedia a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2a365;
+  width: 5vmin;
+  height: 5vmin;
+  margin-left: 5px;
+  box-sizing: border-box;
+  border-radius: 50%;
+}

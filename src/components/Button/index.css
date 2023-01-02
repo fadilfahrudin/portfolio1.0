@@ -1,0 +1,17 @@
+/* eslint-disable */
+.btn-resume {
+  background-color: #f2a365;
+  color: #0d274f;
+  min-width: 2rem;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 0 15px 0 15px;
+}
+
+.btn-resume:hover {
+  background-color: #0d274f;
+  color: #f2a365;
+  box-shadow: rgba(242, 163, 101, 1) 5px 5px;
+  transform: translateY(-7px);
+}

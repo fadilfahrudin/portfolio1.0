@@ -1,0 +1,34 @@
+.navbar {
+  backdrop-filter: blur(10px);
+}
+
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #203a62;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+li a:hover {
+  background-color: #0d274f;
+  color: #f2a365;
+  box-shadow: rgba(242, 163, 101, 1) 5px 5px;
+  transform: translateY(-7px);
+  padding: 8px;
+}
+
+.active {
+  color: #0d274f;
+  font-weight: bold;
+  /* background-color: #0d274f; */
+  border: 1px solid #0d274f;
+  padding: 4px;
+}

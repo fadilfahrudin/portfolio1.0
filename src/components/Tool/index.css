@@ -1,0 +1,17 @@
+.logoTools {
+  height: 5vmin;
+  /* pointer-events: none; */
+}
+
+.wrapper-tool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f2a365; */
+  width: 8vmin;
+  height: 8vmin;
+  margin-left: 5px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid #0d274f;
+}

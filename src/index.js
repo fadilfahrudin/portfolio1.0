@@ -1,15 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import { AppRoute } from "./pages";
 import reportWebVitals from "./reportWebVitals";
-import Home from "./pages/home";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style/App.scss";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Home />
+    <BrowserRouter>
+      <AppRoute />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

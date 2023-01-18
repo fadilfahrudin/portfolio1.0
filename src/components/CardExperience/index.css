@@ -1,0 +1,31 @@
+.about-page {
+  min-height: 100vh;
+}
+
+.wrapper-card-experience {
+  border: 1px solid #f2a365;
+  height: 150px;
+  padding: 10px;
+  margin: 4px;
+  color: #f2a365;
+  background-color: #203a62;
+  box-shadow: rgba(242, 163, 101, 1) 5px 5px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.wrapper-card-experience:hover {
+  transform: translateY(-7px);
+  box-shadow: rgba(242, 163, 101, 1) 0 3px;
+  border-right: 2px solid #f2a365;
+  border-left: 2px solid #f2a365;
+}
+
+.item-experience-card {
+  display: flex;
+  align-items: center;
+}
+
+.item-experience-card * {
+  margin: 0;
+}

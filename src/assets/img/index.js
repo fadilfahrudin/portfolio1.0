@@ -8,6 +8,15 @@ import UserHero from "./user-hero.svg";
 import Figma from "./figma.png";
 import Laravel from "./laravel.png";
 import Bootstrap from "./bootstrap.png";
+import DummyImg from "./dummy-bgImg.jpg";
+import SBapps from "./sb-apps.svg";
+import SBapps2 from "./sb-apps-2.svg";
+import QafApps from "./qaf-apps.svg";
+import Gin from "./gin.svg";
+import AdminSb from "./admin-sb.svg";
+import Location from "./location.svg";
+import Worker from "./worker.svg";
+import Timer from "./timer.svg";
 
 export {
   Behance,
@@ -20,4 +29,13 @@ export {
   Figma,
   Laravel,
   Bootstrap,
+  DummyImg,
+  SBapps,
+  SBapps2,
+  QafApps,
+  Gin,
+  AdminSb,
+  Location,
+  Worker,
+  Timer,
 };

@@ -1,0 +1,44 @@
+#wrapper-CardExperience {
+  /* display: flex; */
+  /* padding: 0 20px 0 20px; */
+}
+
+#about-me {
+  /* background-color: rgb(49, 121, 184);
+  width: 100%; */
+}
+
+#about-me div h1 {
+  text-align: center;
+}
+
+#about-me div p {
+  text-align: justify;
+}
+
+.my-photo {
+  min-width: 300px;
+}
+
+.about-page {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+  /* overflow: hidden; */
+}
+
+#wrapper-CardExperience hr {
+  border: 1px solid #f2a365;
+  box-shadow: 0 4px 0 0 #000000;
+  width: 20%;
+  margin: -5px auto 15px auto;
+}
+
+@media (min-width: 780px) {
+  .about-page {
+    width: 75%;
+  }
+  .my-photo {
+    max-width: 500px;
+  }
+}

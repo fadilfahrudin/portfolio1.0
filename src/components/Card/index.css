@@ -1,0 +1,44 @@
+.wrapper-card {
+  position: relative;
+  width: 540px;
+  height: 690px;
+  /* border: 1px solid; */
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  font-size: 32px;
+  overflow: hidden;
+}
+.wrapper-card-inti {
+  transition: all 0.3s ease 0s;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/* .tools-card {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  margin-right: 20px;
+} */
+
+.main-img-card {
+  display: flex;
+  /* justify-content: flex-start; */
+  margin-left: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.wrapper-card-inti:hover {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: rgba(50, 50, 93, 0) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0) 0px 18px 36px -18px inset;
+}
+
+h4 {
+  color: rgba(4, 5, 39, 0.741);
+}
+
+.main-img-card:hover {
+  transform: translateY(-7px);
+}

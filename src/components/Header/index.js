@@ -36,18 +36,8 @@ const Header = () => {
                     Home
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    onClick={() => setProgress(progress + 100)}
-                    to="/my-portfolio/about"
-                    className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }
-                  >
-                    About
-                  </NavLink>
-                </li>
-                <li>
+
+                {/* <li>
                   <NavLink
                     onClick={() => setProgress(progress + 100)}
                     to="/my-portfolio/project"
@@ -56,6 +46,30 @@ const Header = () => {
                     }
                   >
                     Project
+                  </NavLink>
+                </li> */}
+
+                {/* <li>
+                  <NavLink
+                    onClick={() => setProgress(progress + 100)}
+                    to="/my-portfolio/articles"
+                    className={({ isActive }) =>
+                      isActive ? activeClassName : undefined
+                    }
+                  >
+                    Articles
+                  </NavLink>
+                </li> */}
+
+                <li>
+                  <NavLink
+                    onClick={() => setProgress(progress + 100)}
+                    to="/my-portfolio/about"
+                    className={({ isActive }) =>
+                      isActive ? activeClassName : undefined
+                    }
+                  >
+                    About Me
                   </NavLink>
                 </li>
               </ul>

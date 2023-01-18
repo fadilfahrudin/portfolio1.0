@@ -2,10 +2,11 @@
 .main-page {
   max-width: 1200px;
   margin: auto;
-}
-#mainHeader {
   min-height: 100vh;
-  padding-top: 100px;
+}
+
+#mainHeader {
+  margin-top: 100px;
 }
 .wrapper-about {
   display: flex;
@@ -25,15 +26,43 @@
 }
 
 .wrapper-userHero {
-  /* background-color: blue; */
   display: flex;
   justify-content: center;
 }
 .userHero {
-  /* background-color: aqua; */
   max-width: 400px;
 }
 
+.tools {
+  display: flex;
+}
+
+#card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.main-card {
+  position: relative;
+}
+
+#tech-stack {
+  margin: 50px 0 100px 0;
+}
+
+hr.style-hr {
+  border: 1px solid #f2a365;
+}
+
+.tools-card {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  margin-right: 20px;
+}
+
+/* Media Query */
 @media (min-width: 992px) {
   .wrapper-userHero {
     display: flex;
@@ -46,9 +75,4 @@
     display: flex;
     justify-content: flex-start;
   }
-}
-
-.tools {
-  display: flex;
-  justify-content: flex-start;
 }

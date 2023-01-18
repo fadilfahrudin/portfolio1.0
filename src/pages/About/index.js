@@ -77,7 +77,7 @@ const About = () => {
               <CardExperience
                 jobdesk="Web Developer"
                 location="Semangatbantu.com"
-                duration="Jan 2022 - Now"
+                duration="Jan 2022 - Jan 2023"
               />
             </Col>
             <Col xl="4">

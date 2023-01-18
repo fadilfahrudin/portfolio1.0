@@ -19,7 +19,9 @@ const Header = () => {
 
       <Navbar collapseOnSelect expand="md" className="navbar pt-4" sticky="top">
         <Container>
-          <Navbar.Brand href="/">Logo</Navbar.Brand>
+          <Navbar.Brand href="/my-portfolio">
+            <h1 className="logoHeader">f</h1>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto pt-2">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Alert, Col, Row } from "react-bootstrap";
+import Pdf from "../../assets/doc/my_resume.pdf";
 import { LogoReact } from "../../assets/icon";
 import {
   AdminSb,
@@ -29,6 +30,10 @@ const Main = () => {
     });
   };
 
+  const Resume = () => {
+    window.open(Pdf);
+  };
+
   const button = async () => {
     const firstCondition = first();
     const secondCondition = await second();
@@ -49,7 +54,7 @@ const Main = () => {
               application comfortable for the eye and easy for using.
             </p>
             <div className="wrapper-btn">
-              <Button title="Resume" />
+              <Button title="Resume" onClick={Resume} />
             </div>
           </Col>
           <Col className="wrapper-userHero flex-end" md="6">

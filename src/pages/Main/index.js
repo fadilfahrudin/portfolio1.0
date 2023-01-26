@@ -52,7 +52,7 @@ const Main = () => {
               <Button title="Resume" />
             </div>
           </Col>
-          <Col className="wrapper-userHero flex-end">
+          <Col className="wrapper-userHero flex-end" md="6">
             <img src={UserHero} alt="fadilfahrudin" className="userHero" />
           </Col>
         </Row>

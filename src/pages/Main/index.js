@@ -75,74 +75,60 @@ const Main = () => {
       <section id="card">
         <div>
           <Row>
-            <Col>
-              <div className="main-card">
-                <Card
-                  bgCard="#B9CEFC"
-                  titleCard="Semangat Bantu Apps"
-                  descriptionCard="Semangat Bantu Apps is mobile crowdfunding for donate  every social program."
-                  imgCard={SBapps}
-                  width={500}
-                />
-                <div className="tools-card">
-                  <Tool src={LogoReact} />
-                </div>
+            <Col className="wrapper-card" md="6">
+              <Card
+                bgCard="#B9CEFC"
+                titleCard="Semangat Bantu Apps"
+                descriptionCard="Semangat Bantu Apps is mobile crowdfunding for donate  every social program."
+                imgCard={SBapps}
+                width={500}
+              />
+              <div className="tools-card">
+                <Tool src={LogoReact} />
               </div>
             </Col>
 
-            <Gap width={30} />
-
-            <Col>
-              <div className="main-card">
-                <Card
-                  bgCard="#ff6768"
-                  titleCard="Qaf (Qo)"
-                  descriptionCard="It is easy to learn basic Arabic for kids, so that's why Qaf is a good choice for your kids."
-                  imgCard={QafApps}
-                  width={600}
-                />
-                <div className="tools-card">
-                  <Tool src={Figma} />
-                </div>
+            <Col className="wrapper-card" md="6">
+              <Card
+                bgCard="#ff6768"
+                titleCard="Qaf (Qo)"
+                descriptionCard="It is easy to learn basic Arabic for kids, so that's why Qaf is a good choice for your kids."
+                imgCard={QafApps}
+                width={600}
+              />
+              <div className="tools-card">
+                <Tool src={Figma} />
               </div>
             </Col>
           </Row>
 
-          <Gap height={50} />
-
           <Row>
-            <Col>
-              <div className="main-card">
-                <Card
-                  bgCard="#f5c7f7"
-                  titleCard="Gerakan Infaq Nutrisi"
-                  descriptionCard="Web design for the Nutrition program given to orphans and the poor."
-                  imgCard={Gin}
-                  width={550}
-                />
-                <div className="tools-card">
-                  <Tool src={Figma} />
-                </div>
+            <Col className="wrapper-card" md="6">
+              <Card
+                bgCard="#f5c7f7"
+                titleCard="Gerakan Infaq Nutrisi"
+                descriptionCard="Web design for the Nutrition program given to orphans and the poor."
+                imgCard={Gin}
+                width={550}
+              />
+              <div className="tools-card">
+                <Tool src={Figma} />
               </div>
             </Col>
 
-            <Gap width={30} />
+            <Col className="wrapper-card" md="6">
+              <Card
+                bgCard="#fef0cd"
+                titleCard="Management Semangat Bantu Apps"
+                descriptionCard="Server side from Mobile Apps Semangat Bantu create with Laravel framework."
+                imgCard={Laravel}
+                width={470}
+              />
 
-            <Col>
-              <div className="main-card">
-                <Card
-                  bgCard="#fef0cd"
-                  titleCard="Management Semangat Bantu Apps"
-                  descriptionCard="Server side from Mobile Apps Semangat Bantu create with Laravel framework."
-                  imgCard={Laravel}
-                  width={470}
-                />
-
-                <div className="tools-card">
-                  <Tool src={Laravel} />
-                  <Gap height={5} />
-                  <Tool src={Bootstrap} />
-                </div>
+              <div className="tools-card">
+                <Tool src={Laravel} />
+                <Gap height={5} />
+                <Tool src={Bootstrap} />
               </div>
             </Col>
           </Row>

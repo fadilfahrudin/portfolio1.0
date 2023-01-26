@@ -30,7 +30,7 @@
   justify-content: center;
 }
 .userHero {
-  max-width: 400px;
+  min-width: 300px;
 }
 
 .tools {
@@ -43,9 +43,11 @@
   margin-bottom: 100px;
 }
 
-.main-card {
+/* .main-card {
   position: relative;
-}
+  width: max-content;
+  box-sizing: inherit;
+} */
 
 #tech-stack {
   margin: 50px 0 100px 0;
@@ -58,8 +60,8 @@ hr.style-hr {
 .tools-card {
   position: absolute;
   bottom: 30px;
-  right: 0;
-  margin-right: 20px;
+  right: 50px;
+  bottom: 50px;
 }
 
 /* Media Query */

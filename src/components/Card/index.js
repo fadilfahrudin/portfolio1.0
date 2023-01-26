@@ -24,12 +24,12 @@ const Card = ({
       <img
         src={imgCard}
         alt="Project"
-        width={width}
+        // width={width}
         className="main-img-card"
       />
 
       {/* <div className="tools-card">
-        <Tool src={toolCard} />
+        <Tool src={[toolCard]} />
       </div> */}
     </div>
   );

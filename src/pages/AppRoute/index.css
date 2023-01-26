@@ -1,3 +1,7 @@
 .wrapper-main {
   min-height: 70vh;
 }
+
+.mainApp-container {
+  overflow: hidden;
+}

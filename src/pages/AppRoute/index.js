@@ -6,7 +6,7 @@ import "./index.css";
 
 const AppRoute = () => {
   return (
-    <div>
+    <div className="mainApp-container">
       <Header />
       <div className="wrapper-main">
         <Switch>

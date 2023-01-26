@@ -1,12 +1,16 @@
 .wrapper-card {
   position: relative;
-  width: 540px;
-  height: 690px;
-  /* border: 1px solid; */
+  max-width: 530px;
+  max-height: 690px;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  font-size: 32px;
   overflow: hidden;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.wrapper-card h1 {
+  font-size: 2rem;
 }
 .wrapper-card-inti {
   transition: all 0.3s ease 0s;
@@ -27,6 +31,7 @@
   /* justify-content: flex-start; */
   margin-left: 20px;
   transition: all 0.3s ease 0s;
+  max-width: 300px;
 }
 
 .wrapper-card-inti:hover {
@@ -41,4 +46,14 @@ h4 {
 
 .main-img-card:hover {
   transform: translateY(-7px);
+}
+
+/* Media Query */
+@media (min-width: 570px) {
+  .main-img-card {
+    max-width: 500px;
+  }
+  .wrapper-card {
+    height: 690px;
+  }
 }

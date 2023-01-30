@@ -7,6 +7,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/App.scss";
 import { BrowserRouter } from "react-router-dom";
 
+// const docTitle = document.title;
+// window.addEventListener("blur", () => {
+//   document.title = "come back..";
+// });
+
+// window.addEventListener("focus", () => {
+//   document.title = docTitle;
+// });
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>

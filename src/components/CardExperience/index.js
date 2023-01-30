@@ -9,7 +9,9 @@ const CardExperience = ({ duration, location, jobdesk }) => {
       <div className="item-experience-card">
         <img src={Worker} alt="Worker" width="30" />
         <Gap width={10} />
-        <h5>{jobdesk}</h5>
+        <p>
+          <b>{jobdesk}</b>
+        </p>
       </div>
       <Gap height={5} />
       <div className="item-experience-card">

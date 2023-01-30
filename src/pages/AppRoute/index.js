@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes as Switch } from "react-router-dom";
-import { Footer, Header } from "../../components";
+import { ButtomNavigation, Footer, Header } from "../../components";
 import { About, Article, Main, Project } from "../../pages";
 import "./index.css";
 
@@ -17,6 +17,7 @@ const AppRoute = () => {
         </Switch>
       </div>
       <Footer />
+      <ButtomNavigation />
     </div>
   );
 };

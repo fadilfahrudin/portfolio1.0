@@ -42,3 +42,9 @@ li a:hover {
   border: 1px solid #0d274f;
   padding: 4px;
 }
+
+@media (width <= 530px) {
+  nav.navbar {
+    display: none;
+  }
+}

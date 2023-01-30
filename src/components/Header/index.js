@@ -17,7 +17,7 @@ const Header = () => {
         onLoaderFinished={() => setProgress(0)}
       />
 
-      <Navbar collapseOnSelect expand="md" className="navbar pt-4" sticky="top">
+      <Navbar className="navbar pt-4" sticky="top">
         <Container>
           <Navbar.Brand href="/my-portfolio">
             <h1 className="logoHeader">f</h1>

@@ -73,14 +73,14 @@ const About = () => {
           <h2 className="text-center">Work Experience</h2>
           <hr />
           <Row className="justify-content-md-center">
-            <Col xl="4">
+            <Col l="4">
               <CardExperience
                 jobdesk="Web Developer"
                 location="Semangatbantu.com"
                 duration="Jan 2022 - Jan 2023"
               />
             </Col>
-            <Col xl="4">
+            <Col l="4">
               <CardExperience
                 jobdesk="Comunity Network"
                 location="Semangatbantu.com"

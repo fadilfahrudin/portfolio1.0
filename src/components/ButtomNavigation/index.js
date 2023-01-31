@@ -37,17 +37,11 @@ const ButtomNavigation = () => {
 
   const navigate = useNavigate();
 
-  // const usePathName = () => {
-  //   const location = useLocation();
-  //   return location.pathname;
-  // };
-
   const currentUrl = window.location.pathname;
 
   const clicked = (button) => {
-    navigate(button.link);
+    return navigate(button.link);
   };
-  console.log(currentUrl);
 
   return (
     <>

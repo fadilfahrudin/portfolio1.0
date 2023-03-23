@@ -12,10 +12,10 @@ const AppRoute = () => {
       <div className="wrapper-main">
         <ScrollToTop />
         <Switch>
-          <Route exact path="/my-portfolio" element={<Main />} />
-          <Route path="/my-portfolio/about" element={<About />} />
-          <Route path="/my-portfolio/project" element={<Project />} />
-          <Route path="/my-portfolio/articles" element={<Article />} />
+          <Route exact path="/" element={<Main />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/articles" element={<Article />} />
         </Switch>
       </div>
       <Footer />

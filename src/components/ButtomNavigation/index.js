@@ -21,17 +21,17 @@ const ButtomNavigation = () => {
     {
       title: "Project",
       icon: <BiAtom />,
-      link: "/my-portfolio/project",
+      link: "/project",
     },
     {
       title: "Home",
       icon: <BiHomeSmile />,
-      link: "/my-portfolio/",
+      link: "/",
     },
     {
       title: "About",
       icon: <BiBot />,
-      link: "/my-portfolio/about",
+      link: "/about",
     },
   ];
 

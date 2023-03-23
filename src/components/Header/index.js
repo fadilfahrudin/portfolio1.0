@@ -19,7 +19,7 @@ const Header = () => {
 
       <Navbar className="navbar pt-4" sticky="top">
         <Container>
-          <Navbar.Brand href="/my-portfolio">
+          <Navbar.Brand href="/">
             <h1 className="logoHeader">f</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -29,7 +29,7 @@ const Header = () => {
                 <li>
                   <NavLink
                     onClick={() => setProgress(progress + 100)}
-                    to="/my-portfolio"
+                    to="/"
                     className={({ isActive }) =>
                       isActive ? activeClassName : undefined
                     }
@@ -66,7 +66,7 @@ const Header = () => {
                 <li>
                   <NavLink
                     onClick={() => setProgress(progress + 100)}
-                    to="/my-portfolio/about"
+                    to="/about"
                     className={({ isActive }) =>
                       isActive ? activeClassName : undefined
                     }

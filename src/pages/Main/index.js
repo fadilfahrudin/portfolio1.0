@@ -3,7 +3,6 @@ import { Alert, Col, Row } from "react-bootstrap";
 import Pdf from "../../assets/doc/my_resume.pdf";
 import { LogoReact } from "../../assets/icon";
 import {
-  AdminSb,
   Bootstrap,
   Figma,
   Gin,

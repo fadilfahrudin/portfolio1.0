@@ -1,86 +1,74 @@
-import React, { useRef, useState } from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import LoadingBar from "react-top-loading-bar";
 import "./index.css";
+import useScrollListLiner from "../../utils/Hooks/useScrollListener";
+import { useNavigate } from "react-router-dom";
 const Header = () => {
-  let activeClassName = "active";
+	const [navList, setNavList] = useState([]);
+	const scroll = useScrollListLiner();
+	const [progress, setProgress] = useState(0);
 
-  // const ref = useRef(null);
-  const [progress, setProgress] = useState(0);
+	useEffect(() => {
+		const _classList = [];
 
-  return (
-    <>
-      <LoadingBar
-        color="#f2a365"
-        progress={progress}
-        onLoaderFinished={() => setProgress(0)}
-      />
+		if (scroll.y > 50 && scroll.y - scroll.lastY > 0) {
+			_classList.push("nav-bar--hidden2");
+		}
+		setNavList(_classList);
+	}, [scroll.y, scroll.lastY]);
 
-      <Navbar className="navbar pt-4" sticky="top">
-        <Container>
-          <Navbar.Brand href="/">
-            <h1 className="logoHeader">f</h1>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto pt-2">
-              <ul>
-                <li>
-                  <NavLink
-                    onClick={() => setProgress(progress + 100)}
-                    to="/"
-                    className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }
-                    end
-                  >
-                    Home
-                  </NavLink>
-                </li>
+	const menus = [
+		{
+			title: "Home",
+			link: "/",
+		},
+		{
+			title: "About",
+			link: "/about",
+		},
+		{
+			title: "Project",
+			link: "/projects",
+		},
+	];
 
-                {/* <li>
-                  <NavLink
-                    onClick={() => setProgress(progress + 100)}
-                    to="/my-portfolio/project"
-                    className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }
-                  >
-                    Project
-                  </NavLink>
-                </li> */}
+	const naviagte = useNavigate();
+	const currenturl = window.location.pathname;
 
-                {/* <li>
-                  <NavLink
-                    onClick={() => setProgress(progress + 100)}
-                    to="/my-portfolio/articles"
-                    className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }
-                  >
-                    Articles
-                  </NavLink>
-                </li> */}
+	const clicked = (menu) => {
+		setProgress(progress + 100);
+		return naviagte(menu.link);
+	};
 
-                <li>
-                  <NavLink
-                    onClick={() => setProgress(progress + 100)}
-                    to="/about"
-                    className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }
-                  >
-                    About Me
-                  </NavLink>
-                </li>
-              </ul>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </>
-  );
+	return (
+		<>
+			<LoadingBar
+				color='#f2a365'
+				progress={progress}
+				onLoaderFinished={() => setProgress(0)}
+			/>
+
+			<nav className={`${navList.join(" ")}`}>
+				<div className='nav-brand'>
+					<div className='logoHeader'>F</div>
+				</div>
+				<div className='nav'>
+					<ul>
+						{menus.map((menu, index) => {
+							return (
+								<li
+									onClick={() => clicked(menu, index)}
+									key={index}
+									className={menu.link === currenturl ? "active" : "menuNav"}>
+									{menu.title}
+								</li>
+							);
+						})}
+					</ul>
+				</div>
+			</nav>
+		</>
+	);
 };
 
 export default Header;

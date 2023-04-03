@@ -8,8 +8,30 @@
   padding: 3px;
   border-radius: 30%;
 }
-.navbar {
-  backdrop-filter: blur(10px);
+nav {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 1;
+  transition: 0.6s ease-in-out;
+  padding: 20px 6%;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+}
+.nav-bar--hidden2{
+  opacity: 0;
+  transform: translateY(-200px);
+  transition: 0.5s ease-in-out;
+
+}
+
+.nav{
+  float: right;
+}
+.nav-brand{
+  float: left;
 }
 
 ul {
@@ -17,34 +39,33 @@ ul {
 }
 li {
   list-style: none;
+  padding: 0px 10px;
 }
-li a {
+.menuNav {
   text-decoration: none;
-  margin-left: 20px;
   color: #203a62;
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
 }
 
-li a:hover {
+.menuNav:hover {
   background-color: #0d274f;
   color: #f2a365;
   box-shadow: rgba(242, 163, 101, 1) 5px 5px;
-  transform: translateY(-7px);
-  padding: 8px;
+  padding: 5px 5px;
+  transition: 0.3s ease-in-out;
 }
 
 .active {
-  color: #0d274f;
-  font-weight: bold;
-  /* background-color: #0d274f; */
-  border: 1px solid #0d274f;
-  padding: 4px;
+  color: #f2a365;
+  font-weight: bolder;
+  cursor: not-allowed;
 }
 
+
 @media (width <= 530px) {
-  nav.navbar {
+  nav{
     display: none;
   }
 }

@@ -19,6 +19,7 @@ import Worker from "./worker.svg";
 import Timer from "./timer.svg";
 import UnderContruction from "./under-construction.png";
 import Me from "./me.png";
+import SbApp from "./adminSbApp.png";
 
 export {
 	Behance,
@@ -42,4 +43,5 @@ export {
 	Timer,
 	UnderContruction,
 	Me,
+	SbApp,
 };

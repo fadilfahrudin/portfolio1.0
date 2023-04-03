@@ -9,6 +9,7 @@ import {
 	Laravel,
 	QafApps,
 	SBapps,
+	SbApp,
 	UserHero,
 } from "../../assets/img";
 import { Button, Card, Gap, Tool } from "../../components";
@@ -123,9 +124,9 @@ const Main = () => {
 						<Col className='wrapper-card' md='6'>
 							<Card
 								bgCard='#fef0cd'
-								titleCard='Management Semangat Bantu Apps'
-								descriptionCard='Server side from Mobile Apps Semangat Bantu create with Laravel framework.'
-								imgCard={Laravel}
+								titleCard='Systemn Management Semangat Bantu App'
+								descriptionCard='CRUD management for mobile application Semangat Bantu, like confirm donations, add social programs, news and users'
+								imgCard={SbApp}
 								width={470}
 							/>
 

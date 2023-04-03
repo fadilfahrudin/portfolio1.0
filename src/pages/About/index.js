@@ -36,7 +36,10 @@ const About = () => {
 							was a bachelor's degree student at Pamulang University (2017) I chose
 							major in informatics of technic and the first language that I knew was
 							C++ until the fourth semester I found a YouTube channel{" "}
-							<a href='https://www.youtube.com/@sandhikagalihWPU' target='_blank'>
+							<a
+								href='https://www.youtube.com/@sandhikagalihWPU'
+								target='_blank'
+								rel='noreferrer'>
 								Web Programming UNPAS
 							</a>{" "}
 							that provides education regarding basic languages such as HTML CSS PHP
@@ -55,8 +58,7 @@ const About = () => {
 							My final undergraduate exams, I created an Android-based crowdfunding
 							application using React Native. Previously, I wasn't very familiar with
 							React, so I am looking to know until I found a BootCamp class in the{" "}
-							<a href='https://buildwithangga.com/' target='_blank'>
-								{" "}
+							<a href='https://buildwithangga.com/' target='_blank' rel='noreferrer'>
 								Build with Angga{" "}
 							</a>
 							about making an Android Food Market application using React Native as the

@@ -17,9 +17,9 @@ const About = () => {
 					<div className='story-text'>
 						<h1>Hey Everyone!👋</h1>
 						<p>
-							<b> I'm Fadillah Fahrudin, as UI design and Front-End Developer.</b> Youth 25
-							years old born in Lampung. I graduated from the University of Pamulang
-							majoring in Informatic of technic (2023).
+							<b> I'm Fadillah Fahrudin, as UI design and Front-End Developer.</b>{" "}
+							Youth 25 years old born in Lampung. I graduated from the University of
+							Pamulang majoring in Informatic of technic (2023).
 						</p>
 						<p>
 							I have a solid experience in several programming languages such as HTML,
@@ -29,10 +29,10 @@ const About = () => {
 							can make a mobile application with React Native.
 						</p>
 						<p>
-							The first time I became interested in programming languages was when I
-							was in junior high school and at that time I watched a movie titled{" "}
+							First time I became interested in programming languages when I was in
+							Junior High School and at that time I watched a movie titled{" "}
 							<b> Who Am I</b> after this I was interested and wanted to be a hacker
-							hehe.🤣 so I started to find out how to learn programming language when I
+							hehe.🤣 So I started to find out how to learn programming language when I
 							was a bachelor's degree student at the University of Pamulang (2017) I
 							chose major in informatics of technic and the first language that I knew
 							was C++ until the fourth semester I found a YouTube channel{" "}
@@ -66,9 +66,13 @@ const About = () => {
 							I find out about React, read about documents, and always try it in my
 							simple project. and I continue my study case to make Android Application
 							for my final undergraduate exams and about six months I finished this
-							project.🦾⚔️ 
+							project.🦾⚔️
 						</p>
-            <p>And I like this framework.<img src={LogoReact} alt="react" width="30" />Base of Component | Learn once, write anywhere.</p>
+						<p>
+							And I like this framework.
+							<img src={LogoReact} alt='react' width='30' />
+							Base of Component | Learn once, write anywhere.
+						</p>
 					</div>
 				</section>
 

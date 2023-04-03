@@ -3,6 +3,7 @@ import useScrollListner from "../../utils/Hooks/useScrollListener";
 import { BiAtom, BiBot, BiHomeSmile } from "react-icons/bi";
 import "./buttomNav.css";
 import { useNavigate } from "react-router-dom";
+import LoadingBar from "react-top-loading-bar";
 
 const ButtomNavigation = () => {
 	const [navList, setNavList] = useState([]);
@@ -21,7 +22,7 @@ const ButtomNavigation = () => {
 		{
 			title: "Project",
 			icon: <BiAtom />,
-			link: "/project",
+			link: "/projects",
 		},
 		{
 			title: "Home",
@@ -40,11 +41,19 @@ const ButtomNavigation = () => {
 	const currentUrl = window.location.pathname;
 
 	const clicked = (button) => {
+		setProgress(progress + 100);
 		return navigate(button.link);
 	};
 
+	const [progress, setProgress] = useState(0);
+
 	return (
 		<>
+			<LoadingBar
+				color='#f2a365'
+				progress={progress}
+				onLoaderFinished={() => setProgress(0)}
+			/>
 			<div className={`${"bmNavigation"} ${navList.join(" ")} `}>
 				<ul>
 					{menus.map((button, index) => {

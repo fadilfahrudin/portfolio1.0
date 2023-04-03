@@ -18,6 +18,7 @@ import Location from "./location.svg";
 import Worker from "./worker.svg";
 import Timer from "./timer.svg";
 import UnderContruction from "./under-construction.png";
+import Me from "./me.png";
 
 export {
 	Behance,
@@ -40,4 +41,5 @@ export {
 	Worker,
 	Timer,
 	UnderContruction,
+	Me,
 };

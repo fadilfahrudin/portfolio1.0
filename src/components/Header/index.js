@@ -3,6 +3,7 @@ import LoadingBar from "react-top-loading-bar";
 import "./index.css";
 import useScrollListLiner from "../../utils/Hooks/useScrollListener";
 import { useNavigate } from "react-router-dom";
+import { LogoF3 } from "../../assets/icon";
 const Header = () => {
 	const [navList, setNavList] = useState([]);
 	const scroll = useScrollListLiner();
@@ -50,7 +51,9 @@ const Header = () => {
 
 			<nav className={`${navList.join(" ")}`}>
 				<div className='nav-brand'>
-					<div className='logoHeader'>F</div>
+					<a href='/'>
+						<img src={LogoF3} alt='Fadil Fahrudin' className='logoHeader' />
+					</a>
 				</div>
 				<div className='nav'>
 					<ul>

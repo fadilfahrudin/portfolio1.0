@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { UserHero } from "../../assets/img";
+import { Me } from "../../assets/img";
 import { CardExperience, Gap } from "../../components";
 import { Col, Container, Row } from "react-bootstrap";
 import { LogoReact } from "../../assets/icon";
@@ -11,15 +11,15 @@ const About = () => {
 			<Container>
 				<section id='about-me'>
 					<div className='d-flex justify-content-center'>
-						<img src={UserHero} alt='Hero' className='my-photo' />
+						<img src={Me} alt='Hero' width={250} className='my-photo' />
 					</div>
 					<Gap height={60} />
 					<div className='story-text'>
 						<h1>Hey Everyone!👋</h1>
 						<p>
 							<b> I'm Fadillah Fahrudin, as UI design and Front-End Developer.</b>{" "}
-							Youth 25 years old born in Lampung. I graduated from the University of
-							Pamulang majoring in Informatic of technic (2023).
+							Youth 25 years old born in Lampung. I graduated from Pamulang University
+							majoring in Informatic of technic (2023).
 						</p>
 						<p>
 							I have a solid experience in several programming languages such as HTML,
@@ -33,9 +33,9 @@ const About = () => {
 							Junior High School and at that time I watched a movie titled{" "}
 							<b> Who Am I</b> after this I was interested and wanted to be a hacker
 							hehe.🤣 So I started to find out how to learn programming language when I
-							was a bachelor's degree student at the University of Pamulang (2017) I
-							chose major in informatics of technic and the first language that I knew
-							was C++ until the fourth semester I found a YouTube channel{" "}
+							was a bachelor's degree student at Pamulang University (2017) I chose
+							major in informatics of technic and the first language that I knew was
+							C++ until the fourth semester I found a YouTube channel{" "}
 							<a href='https://www.youtube.com/@sandhikagalihWPU' target='_blank'>
 								Web Programming UNPAS
 							</a>{" "}

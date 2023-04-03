@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap");
 .logoHeader {
-  font-family: "Domine", serif;
-  color: #f2a365;
-  background-color: #203a62;
-  width: 50px;
+  width: 80px;
   text-align: center;
-  padding: 3px;
-  border-radius: 30%;
 }
 nav {
+  
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -16,8 +12,9 @@ nav {
   left: 0;
   opacity: 1;
   transition: 0.6s ease-in-out;
-  padding: 20px 6%;
+  padding: 0 6%;
   backdrop-filter: blur(20px);
+  /* background-color: #0d274f; */
   z-index: 1;
 }
 .nav-bar--hidden2{
@@ -29,6 +26,7 @@ nav {
 
 .nav{
   float: right;
+  margin-top: 25px;
 }
 .nav-brand{
   float: left;
@@ -53,8 +51,11 @@ li {
   background-color: #0d274f;
   color: #f2a365;
   box-shadow: rgba(242, 163, 101, 1) 5px 5px;
-  padding: 5px 5px;
-  transition: 0.3s ease-in-out;
+  padding: 8px 10px;
+  transition: 0.4s ease-out;
+  transform: translateY(-15px) translateX(5px);
+  margin-right: 10px;
+  font-weight: bold;
 }
 
 .active {

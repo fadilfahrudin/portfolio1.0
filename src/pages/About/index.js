@@ -57,7 +57,7 @@ const About = () => {
 						<p>
 							My final undergraduate exams, I created an Android-based crowdfunding
 							application using React Native. Previously, I wasn't very familiar with
-							React, so I am looking to know until I found a BootCamp class in the{" "}
+							React, so I am looking to know until I found a bootcamp class in the{" "}
 							<a href='https://buildwithangga.com/' target='_blank' rel='noreferrer'>
 								Build with Angga{" "}
 							</a>

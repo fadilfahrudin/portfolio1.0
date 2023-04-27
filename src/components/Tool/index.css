@@ -1,6 +1,6 @@
 .logoTools {
-  width: 50px;
-  height: 50px;
+  width: 6vmin;
+  height: 6vmin;
   /* pointer-events: none; */
 }
 
@@ -10,7 +10,7 @@
   align-items: center;
   background-color: #fff;
   padding: 10px;
-  margin: 25px 5px;
+  margin: 8px 5px;
   box-sizing: border-box;
   border-radius: 50%;
   border: 1px solid #0d274f;
@@ -20,5 +20,5 @@
   background-color: #0d274f;
   border: 1px solid #f2a365;
   transition: 0.6s;
-  box-shadow: 6px 6px 18px rgba(15, 14, 14, 0.325);
+  box-shadow: 0 2px 8px rgba(15, 14, 14, 0.325);
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Alert, Col, Row } from "react-bootstrap";
-import Pdf from "../../assets/doc/FadilF--Apr-2023.pdf";
+import Pdf from "../../assets/doc/Resume-230427-FadilFahrudin.pdf";
 import { LogoReact } from "../../assets/icon";
 import {
 	Bootstrap,
@@ -54,9 +54,8 @@ const Main = () => {
 				<Row className='wrapper-about'>
 					<Col className='about'>
 						<p>
-							Hi. I'm Fadil Fahrudin, I can translate something digital problem to pour
-							inside application, like a web application or a mobile application
-							comfortable for the eye and easy for using.
+							Hi. I am Fadil, a 25 year old youth who has experience in using
+							programming languages for about 2 years. Please check my resume below.
 						</p>
 						<div className='wrapper-btn'>
 							<Button title='Resume' onClick={Resume} />
@@ -72,7 +71,7 @@ const Main = () => {
 			{/*  Tool Tech Stack  */}
 			<section id='tech-stack'>
 				<div>
-					<h3>Tools and technology currently used: 👇</h3>
+					<h3>Tools and technology currently used:</h3>
 				</div>
 				<div className='tools'>
 					<Tool src={LogoReact} />
@@ -102,6 +101,8 @@ const Main = () => {
 							/>
 							<div className='tools-card'>
 								<Tool src={LogoReact} />
+								<Tool src={Figma} />
+								<Tool src={IcJs} />
 							</div>
 						</Col>
 
@@ -136,7 +137,7 @@ const Main = () => {
 						<Col className='wrapper-card' md='6'>
 							<Card
 								bgCard='#fef0cd'
-								titleCard='Systemn Management Semangat Bantu App'
+								titleCard='Content Management System Semangat Bantu App'
 								descriptionCard='CRUD management for mobile application Semangat Bantu, like confirm donations, add social programs, news and users'
 								imgCard={SbApp}
 								width={470}
@@ -144,8 +145,11 @@ const Main = () => {
 
 							<div className='tools-card'>
 								<Tool src={Laravel} />
-								<Gap height={5} />
 								<Tool src={Bootstrap} />
+								<Tool src={IcPhp} />
+								<Tool src={IcHtml} />
+								<Tool src={IcCss} />
+								<Tool src={IcJs} />
 							</div>
 						</Col>
 					</Row>

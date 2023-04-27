@@ -55,14 +55,15 @@ const About = () => {
 							from my office.
 						</p>
 						<p>
-							My final undergraduate exams, I created an Android-based crowdfunding
-							application using React Native. Previously, I wasn't very familiar with
-							React, so I am looking to know until I found a bootcamp class in the{" "}
+							For my undergraduate finals, I created an Android-based crowdfunding app
+							using React Native. Before that I didn't really understand React until I
+							found a bootcamp class on{" "}
 							<a href='https://buildwithangga.com/' target='_blank' rel='noreferrer'>
 								Build with Angga{" "}
 							</a>
-							about making an Android Food Market application using React Native as the
-							Front-End and Laravel as the Back-End and I finished this class.
+							regarding creating an Android Food Market application that uses React
+							Native for mobile applications and Laravel as a Content Management System
+							and I was able to complete this class.
 						</p>
 						<p>
 							I find out about React, read about documents, and always try it in my

@@ -71,7 +71,9 @@ const Main = () => {
 
 			{/*  Tool Tech Stack  */}
 			<section id='tech-stack'>
-				<h3>Tools and technology currently used: 👇</h3>
+				<div>
+					<h3>Tools and technology currently used: 👇</h3>
+				</div>
 				<div className='tools'>
 					<Tool src={LogoReact} />
 					<Tool src={Laravel} />

@@ -7,7 +7,7 @@ import Youtube from "./youtube.svg";
 import UserHero from "./user-hero.svg";
 import Figma from "./figma.png";
 import Laravel from "./laravel.png";
-import Bootstrap from "./bootstrap.png";
+import Bootstrap from "./bootstrap.svg";
 import DummyImg from "./dummy-bgImg.jpg";
 import SBapps from "./sb-apps.svg";
 import SBapps2 from "./sb-apps-2.svg";

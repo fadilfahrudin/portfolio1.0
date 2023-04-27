@@ -1,5 +1,6 @@
 .logoTools {
-  height: 5vmin;
+  width: 50px;
+  height: 50px;
   /* pointer-events: none; */
 }
 
@@ -8,10 +9,16 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  width: 10vmin;
-  height: 10vmin;
-  margin-left: 5px;
+  padding: 10px;
+  margin: 25px 5px;
   box-sizing: border-box;
   border-radius: 50%;
   border: 1px solid #0d274f;
+}
+
+.wrapper-tool:hover{
+  background-color: #0d274f;
+  border: 1px solid #f2a365;
+  transition: 0.6s;
+  box-shadow: 6px 6px 18px rgba(15, 14, 14, 0.325);
 }

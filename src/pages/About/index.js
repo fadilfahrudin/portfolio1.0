@@ -22,11 +22,11 @@ const About = () => {
 							majoring in Informatic of technic (2023).
 						</p>
 						<p>
-							I have a solid experience in several programming languages such as HTML,
-							CSS, JavaScript, and a little basic PHP language. I am also very familiar
-							love with frameworks such as Bootstrap and React. In addition, I also
-							understand basic concepts such as responsive design, UI design and also I
-							can make a mobile application with React Native.
+							I have strong experience in using programming languages such as HTML,
+							CSS, JavaScript, and a little basic PHP and I can also work with some
+							frameworks that I am good at such as Bootstrap, React JS, React Native,
+							and a little understanding of Laravel. I also understand the basic
+							concepts of responsive design and interface design.
 						</p>
 						<p>
 							First time I became interested in programming languages when I was in
@@ -84,7 +84,7 @@ const About = () => {
 					<Row className='justify-content-md-center'>
 						<Col l='4'>
 							<CardExperience
-								jobdesk='Web Developer'
+								jobdesk='Junior Web Developer'
 								location='Semangatbantu.com'
 								duration='Jan 2022 - Jan 2023'
 							/>

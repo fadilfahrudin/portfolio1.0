@@ -6,6 +6,11 @@ import {
 	Bootstrap,
 	Figma,
 	Gin,
+	IcCss,
+	IcGit,
+	IcHtml,
+	IcJs,
+	IcPhp,
 	Laravel,
 	QafApps,
 	SBapps,
@@ -66,12 +71,17 @@ const Main = () => {
 
 			{/*  Tool Tech Stack  */}
 			<section id='tech-stack'>
-				<h3>Favorite technologies for currently 👇</h3>
+				<h3>Tools and technology currently used: 👇</h3>
 				<div className='tools'>
 					<Tool src={LogoReact} />
 					<Tool src={Laravel} />
 					<Tool src={Bootstrap} />
 					<Tool src={Figma} />
+					<Tool src={IcGit} />
+					<Tool src={IcPhp} />
+					<Tool src={IcJs} />
+					<Tool src={IcHtml} />
+					<Tool src={IcCss} />
 				</div>
 			</section>
 			{/* End Tool */}

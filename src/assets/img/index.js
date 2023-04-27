@@ -20,8 +20,18 @@ import Timer from "./timer.svg";
 import UnderContruction from "./under-construction.png";
 import Me from "./me.png";
 import SbApp from "./adminSbApp.png";
+import IcGit from "./git.svg";
+import IcPhp from "./php.svg";
+import IcJs from "./js.svg";
+import IcCss from "./css.svg";
+import IcHtml from "./html-5.svg";
 
 export {
+	IcCss,
+	IcHtml,
+	IcJs,
+	IcPhp,
+	IcGit,
 	Behance,
 	Dribbble,
 	Github,
